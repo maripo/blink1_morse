@@ -2,8 +2,6 @@ package org.maripo.blink;
 
 import java.applet.Applet;
 import java.awt.Button;
-import java.awt.Color;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Panel;
@@ -15,7 +13,6 @@ import java.awt.event.KeyListener;
 
 import javax.swing.JSlider;
 
-import org.maripo.morse.MorseDevice;
 import org.maripo.morse.MorsePlayer;
 
 public class GUIControler extends Applet
