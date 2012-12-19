@@ -34,56 +34,56 @@ class MorseLetter
 	{
 		Signal S = Signal.SHORT;
 		Signal L = Signal.LONG;
-		MORSE.put(new Character('A'), new MorseLetter(new Signal[] { S, L }));
-		MORSE.put(new Character('B'), new MorseLetter(
-				new Signal[] { L, S, S, S }));
-		MORSE.put(new Character('C'), new MorseLetter(
-				new Signal[] { L, S, L, S }));
-		MORSE.put(new Character('D'), new MorseLetter(new Signal[] { L, S, S }));
-		MORSE.put(new Character('E'), new MorseLetter(new Signal[] { S }));
-		MORSE.put(new Character('F'), new MorseLetter(
-				new Signal[] { S, S, L, S }));
-		MORSE.put(new Character('G'), new MorseLetter(new Signal[] { L, L, S }));
-		MORSE.put(new Character('H'), new MorseLetter(
-				new Signal[] { S, S, S, S }));
-		MORSE.put(new Character('I'), new MorseLetter(new Signal[] { S, S, }));
-		MORSE.put(new Character('J'), new MorseLetter(
-				new Signal[] { S, L, L, L }));
-		MORSE.put(new Character('K'), new MorseLetter(new Signal[] { L, S, L }));
-		MORSE.put(new Character('L'), new MorseLetter(
-				new Signal[] { S, L, S, S }));
-		MORSE.put(new Character('M'), new MorseLetter(new Signal[] { L, L }));
-		MORSE.put(new Character('N'), new MorseLetter(new Signal[] { L, S }));
-		MORSE.put(new Character('O'), new MorseLetter(new Signal[] { L, L, L }));
-		MORSE.put(new Character('P'), new MorseLetter(
-				new Signal[] { S, L, L, S }));
-		MORSE.put(new Character('Q'), new MorseLetter(
-				new Signal[] { L, L, S, L }));
-		MORSE.put(new Character('R'), new MorseLetter(new Signal[] { S, L, S }));
-		MORSE.put(new Character('S'), new MorseLetter(new Signal[] { S, S, S }));
-		MORSE.put(new Character('T'), new MorseLetter(new Signal[] { L }));
-		MORSE.put(new Character('U'), new MorseLetter(new Signal[] { S, S, L }));
-		MORSE.put(new Character('V'), new MorseLetter(
-				new Signal[] { S, S, S, L }));
-		MORSE.put(new Character('W'), new MorseLetter(new Signal[] { S, L, L }));
-		MORSE.put(new Character('X'), new MorseLetter(
-				new Signal[] { L, S, S, L }));
-		MORSE.put(new Character('Y'), new MorseLetter(
-				new Signal[] { L, S, L, L }));
-		MORSE.put(new Character('Z'), new MorseLetter(
-				new Signal[] { L, L, S, S }));
 		
-		//Numbers
-		MORSE.put(new Character('1'), new MorseLetter(new Signal[]{S, L, L, L, L}));
-		MORSE.put(new Character('2'), new MorseLetter(new Signal[]{S, S, L, L, L}));
-		MORSE.put(new Character('3'), new MorseLetter(new Signal[]{S, S, S, L, L}));
-		MORSE.put(new Character('4'), new MorseLetter(new Signal[]{S, S, S, S, L}));
-		MORSE.put(new Character('5'), new MorseLetter(new Signal[]{S, S, S, S, S}));
-		MORSE.put(new Character('6'), new MorseLetter(new Signal[]{L, S, S, S, S}));
-		MORSE.put(new Character('7'), new MorseLetter(new Signal[]{L, L, S, S, S}));
-		MORSE.put(new Character('8'), new MorseLetter(new Signal[]{L, L, L, S, S}));
-		MORSE.put(new Character('9'), new MorseLetter(new Signal[]{L, L, L, L, S}));
-		MORSE.put(new Character('0'), new MorseLetter(new Signal[]{L, L, L, L, L}));
+		MORSE.put('A', new MorseLetter(new Signal[] { S, L }));
+		MORSE.put('B', new MorseLetter(new Signal[] { L, S, S, S }));
+		MORSE.put('C', new MorseLetter(new Signal[] { L, S, L, S }));
+		MORSE.put('D', new MorseLetter(new Signal[] { L, S, S }));
+		MORSE.put('E', new MorseLetter(new Signal[] { S }));
+		MORSE.put('F', new MorseLetter(new Signal[] { S, S, L, S }));
+		MORSE.put('G', new MorseLetter(new Signal[] { L, L, S }));
+		MORSE.put('H', new MorseLetter(new Signal[] { S, S, S, S }));
+		MORSE.put('I', new MorseLetter(new Signal[] { S, S, }));
+		MORSE.put('J', new MorseLetter(new Signal[] { S, L, L, L }));
+		MORSE.put('K', new MorseLetter(new Signal[] { L, S, L }));
+		MORSE.put('L', new MorseLetter(new Signal[] { S, L, S, S }));
+		MORSE.put('M', new MorseLetter(new Signal[] { L, L }));
+		MORSE.put('N', new MorseLetter(new Signal[] { L, S }));
+		MORSE.put('O', new MorseLetter(new Signal[] { L, L, L }));
+		MORSE.put('P', new MorseLetter(new Signal[] { S, L, L, S }));
+		MORSE.put('Q', new MorseLetter(new Signal[] { L, L, S, L }));
+		MORSE.put('R', new MorseLetter(new Signal[] { S, L, S }));
+		MORSE.put('S', new MorseLetter(new Signal[] { S, S, S }));
+		MORSE.put('T', new MorseLetter(new Signal[] { L }));
+		MORSE.put('U', new MorseLetter(new Signal[] { S, S, L }));
+		MORSE.put('V', new MorseLetter(new Signal[] { S, S, S, L }));
+		MORSE.put('W', new MorseLetter(new Signal[] { S, L, L }));
+		MORSE.put('X', new MorseLetter(new Signal[] { L, S, S, L }));
+		MORSE.put('Y', new MorseLetter(new Signal[] { L, S, L, L }));
+		MORSE.put('Z', new MorseLetter(new Signal[] { L, L, S, S }));
+		
+		// Numbers
+		MORSE.put('1', new MorseLetter(new Signal[]{S, L, L, L, L}));
+		MORSE.put('2', new MorseLetter(new Signal[]{S, S, L, L, L}));
+		MORSE.put('3', new MorseLetter(new Signal[]{S, S, S, L, L}));
+		MORSE.put('4', new MorseLetter(new Signal[]{S, S, S, S, L}));
+		MORSE.put('5', new MorseLetter(new Signal[]{S, S, S, S, S}));
+		MORSE.put('6', new MorseLetter(new Signal[]{L, S, S, S, S}));
+		MORSE.put('7', new MorseLetter(new Signal[]{L, L, S, S, S}));
+		MORSE.put('8', new MorseLetter(new Signal[]{L, L, L, S, S}));
+		MORSE.put('9', new MorseLetter(new Signal[]{L, L, L, L, S}));
+		MORSE.put('0', new MorseLetter(new Signal[]{L, L, L, L, L}));
+		
+		// Marks
+		MORSE.put('.', new MorseLetter(new Signal[]{S,L,S,L,S,L}));
+		MORSE.put(',', new MorseLetter(new Signal[]{L,L,S,S,L,L}));
+		MORSE.put('?', new MorseLetter(new Signal[]{S,S,L,L,S,S}));
+		MORSE.put('!', new MorseLetter(new Signal[]{L,S,L,S,L,L}));
+		MORSE.put('-', new MorseLetter(new Signal[]{L,S,S,S,S,L}));
+		MORSE.put('/', new MorseLetter(new Signal[]{L,S,S,L,S}));
+		MORSE.put('@', new MorseLetter(new Signal[]{S,L,L,S,L,S}));
+		MORSE.put('(', new MorseLetter(new Signal[]{L,S,L,L,S}));
+		MORSE.put(')', new MorseLetter(new Signal[]{L,S,L,L,S,L}));
 		
 		MORSE.put(new Character(' '), new MorseLetter(new Signal[]{Signal.SPACE}));
 	}
