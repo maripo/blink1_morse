@@ -7,7 +7,7 @@ blink(1) http://thingm.com/products/blink-1.html
 
 YouTube http://www.youtube.com/watch?v=GdNwBsjO4G0
 
-![](https://github.com/maripo/blink1_morse/blob/master/doc/screenshot.png)
+![](https://raw.github.com/maripo/blink1_morse/master/doc/screenshot.png)
 
 + You can try it easily by running GUIController.java as an applet.
 + Example.java shows a very simple usage.
