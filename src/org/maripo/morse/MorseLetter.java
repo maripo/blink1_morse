@@ -3,7 +3,7 @@ package org.maripo.morse;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MorseLetter
+class MorseLetter
 {
 
 	private Signal[] signals = new Signal[0];
